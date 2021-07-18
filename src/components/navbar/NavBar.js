@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import AccordionMenu from "../accordionMenu/AccordionMenu";
 
 import {
   Menu,
@@ -42,6 +43,7 @@ function NavBar() {
       </Menu>
       <MenuIcon icon={faSearch} />
       <MenuIcon icon={faShoppingCart} />
+      <AccordionMenu open={open} />
     </>
   );
 }
