@@ -1,14 +1,14 @@
-import styled from "./styled-components";
+import styled from "styled-components";
 import { device } from "../../styles/devices";
-import { fonts } from "../../styles/typograhpy";
+import { fonts } from "../../styles/typography";
 
 export const HeaderWrapper = styled.header`
   position: relative;
-  height: 13vw;
+  height: 4vw;
   width: 100%;
   padding: 0;
   margin: 0;
-  top: 10;
+  top: 10px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
