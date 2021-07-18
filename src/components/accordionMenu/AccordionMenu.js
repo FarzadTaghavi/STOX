@@ -1,5 +1,6 @@
 import React from "react";
 import { Accordion, AccordionSection } from "../accordion/Accordion";
+import Carrousel from "../carrousel/Carrousel";
 
 import { StyledMenu } from "./style";
 
@@ -153,6 +154,7 @@ const sideCategories = [
 const AccordionMenu = (props) => {
   return (
     <StyledMenu open={props.open} onClick={props.onClick}>
+      <Carrousel />
       <AccordionSection>
         {sideCategories.map((sideCategory) => (
           <Accordion

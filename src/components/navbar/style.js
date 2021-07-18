@@ -20,7 +20,7 @@ export const MenuIcon = styled(FontAwesomeIcon)`
   @media (max-width: 768px) {
     font-size: 6vw;
     margin: 5px;
-    margin-right: 15px;
+    margin-right: 10px;
   }
 `;
 

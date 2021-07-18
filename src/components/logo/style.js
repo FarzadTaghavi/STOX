@@ -8,9 +8,9 @@ export const LogoWrapper = styled.div`
   align-items: center;
   padding: 0;
   margin: 0;
-  height: 80px;
+  height: 40px;
 
-  @media ${device.laptop} {
+  @media ${device.tablet} {
     padding: 0px 2.76vw;
   }
 `;
@@ -19,7 +19,7 @@ export const StyledLogo = styled.img`
   height: 30vw;
   margin-bottom: 8px;
 
-  @media ${device.laptop} {
+  @media ${device.tablet} {
     height: 10vw;
     padding-left: 0px;
   }

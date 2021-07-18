@@ -4,7 +4,7 @@ import { fonts } from "../../styles/typography";
 
 export const HeaderWrapper = styled.header`
   position: relative;
-  height: 4vw;
+  height: 10vw;
   width: 100%;
   padding: 0;
   margin: 0;
